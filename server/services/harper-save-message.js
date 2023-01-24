@@ -10,11 +10,11 @@ function harperSaveMessages(message, username, room) {
     schema: 'realtime_chat_app',
     table: 'messages',
     record: [
-        {
-            message,
-            username,
-            room,
-        },
+      {
+        message,
+        username,
+        room,
+      },
     ],
   });
 
